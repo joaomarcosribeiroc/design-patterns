@@ -15,7 +15,7 @@ First, if you are at the root directory of this repo, head into strattegy patter
 Now, package the project using Maven:
 
  ```{r, engine='bash', count_lines}
-  foo@bar: /design-patterns (main) mvn package spring-boot:repackage
+  foo@bar: /design-patterns/strategy-pattern (main) mvn package spring-boot:repackage
   ```
 Finally, run the app using `java` command:
  ```{r, engine='bash', count_lines}
