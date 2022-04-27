@@ -6,6 +6,8 @@ public interface Observable {
     void add(Observer observer);
     void remove(Observer observer);
     Collection<Observer> getObservers();
+
+    //the notify method should be a private method of the observable.
     default void notifyObservers(){
         while(true){
             try {
