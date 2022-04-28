@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.joaomarcos.designpattern</groupId>
-  <artifactId>factorymethod-pattern</artifactId>
+  <artifactId>singleton-pattern</artifactId>
   <version>1.0</version>
 
-  <name>factorymethod</name>
+  <name>singleton</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -75,7 +75,7 @@
           <artifactId>spring-boot-maven-plugin</artifactId>
           <version>2.1.12.RELEASE</version>
           <configuration>
-            <mainClass>com.joaomarcos.designpatter.factorymethodpattern.App</mainClass>
+            <mainClass>com.joaomarcos.designpatter.decoratorpattern.App</mainClass>
           </configuration>
           <executions>
             <execution>
